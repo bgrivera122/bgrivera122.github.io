@@ -15,11 +15,11 @@ The approach I took with the Dockerfile was a simple one; It reminded me of scri
 from previous classes and was surprised at how the RUN commands worked with little
 issue.
 
-(first picture up to line 11)
+![Docker1](/images/docker1.jpg)
 
 Up until line 11, it was straightforward.
 
-(icture of line 11)
+![Docker2](/images/docker2.jpg)
 
 COPY'ing the files that were generated from the previous RUN commands was an obvious
 solution that I didn't arrive to until way later. The biggest clue in for using COPY
@@ -30,7 +30,7 @@ WORKDIR worked just like "cd." I can imagine it would be painful to keep track o
 which directories I need to be in when working on these Dockerfiles, so I hope I
 enter a better workflow in the future on realistic projects.
 
-(picture of up till 23)
+![Docker3](/images/docker3.jpg)
 
 I thought I had finished after installing composer, but trying to run the dockerfile
 without this line resulted in container immediately shutting down. With this, it will
