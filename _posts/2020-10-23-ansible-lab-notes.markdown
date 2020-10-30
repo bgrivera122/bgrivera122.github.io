@@ -1,3 +1,6 @@
+---
+hero_image: https://northslopechillers.com/wp-content/uploads/2019/07/Cool-Server-Room.jpg
+---
 # Ansible Notes
 ## It's Alive!
 
@@ -9,6 +12,7 @@ I was able to find out through https://yaml.org/spec/1.2/spec.html#id2774157 in 
 
 I'll be implementing a theme by the next due date.
 
+<!--end_excerpt-->
 ## Docker Container
 
 I was able to use my local machine's directory to place files within the Docker container using this

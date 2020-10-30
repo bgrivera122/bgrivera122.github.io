@@ -26,9 +26,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: "@PatchYourselfUp"
 github_username:  bgrivera.122
-
+excerpt_separator: <!--end_excerpt-->
 # Build settings
-theme: minima
+theme: bulma-clean-theme
 plugins:
   - jekyll-feed
 exclude:
